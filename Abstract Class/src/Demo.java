@@ -23,6 +23,14 @@ class Rect extends Shape
 		System.out.println("in Rect draw");
 	}
 }
+class Square extends Shape
+{
+	 void draw()
+	 {
+		 System.out.println("In square draw");
+	 }
+}
+
 class Poly extends Shape
 {
 	void draw()
